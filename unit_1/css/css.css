@@ -1,7 +1,13 @@
 body{
-	background-color: black;
+	text-align: center;
+	background: url(mattegreen.jpg); 
+	background-size: cover;
+	color: #262D2D;
+	font-size: 45px;
 }
-h1, p{
-	color: red;
+hr {
+	width: 250px;
 }
-
+p {
+	font-size: 20px; 
+}
