@@ -1,13 +1,21 @@
 body{
 	text-align: center;
-	background: url(mattegreen.jpg); 
+	}
+html{
+	background-image: url("mattegreen.jpg") no-repeat center center fixed;
+	height: auto;
 	background-size: cover;
-	color: #262D2D;
-	font-size: 45px;
+	overflow: hidden;
 }
 hr {
-	width: 250px;
+	width: 300px;
 }
-p {
-	font-size: 20px; 
+p{
+	font-size:	20px;
+	font-family: 'Oswald', sans-serif; 
+}
+h1{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 60px;
+	color: #18481A;
 }
