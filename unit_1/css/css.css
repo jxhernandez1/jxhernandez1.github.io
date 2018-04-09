@@ -1,21 +1,114 @@
 body{
 	text-align: center;
 	}
-html{
-	background-image: url("mattegreen.jpg") no-repeat center center fixed;
-	height: auto;
-	background-size: cover;
-	overflow: hidden;
-}
-hr {
-	width: 300px;
-}
+
 p{
-	font-size:	20px;
-	font-family: 'Oswald', sans-serif; 
+	font-size:	25px;
+	font-family: 'Oswald', sans-serif;
+	color: #406f34; 
 }
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+}
+
 h1{
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 60px;
-	color: #18481A;
+	font-size: 50px;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	color: #406f34;
+	text-transform: uppercase;
+	border-bottom: 2px solid black;
+	display: inline;
+}
+
+h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	color: #406f34;
+	text-transform: uppercase;
+	border-bottom: 2px solid black;
+	display: inline;
+}
+
+nav{
+	font-size: 1em;
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	margin: 2em;
+	display: inline-block;
+
+}
+
+div {
+	font-size: 2em;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+}
+
+#two_column {
+	background-color: #000000;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+#about {
+	float: left;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+#services {
+	float: right;
+	padding: 0;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+#bscustoms {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	background: #406f34;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #406f34;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+footer{
+	text-align: center;
+	padding: 1em 0;
+	clear: both;
 }
